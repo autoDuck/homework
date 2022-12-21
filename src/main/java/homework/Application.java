@@ -1,6 +1,6 @@
 package homework;
 
-import animal.Kotik;
+import animals.Kotik;
 
 public class Application {
     public static void main(String[] args) {
