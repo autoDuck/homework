@@ -60,6 +60,7 @@ public class Kotik {
             System.out.println("Need food");
             return false;
         }
+        satiety--;
         System.out.println("Cat sleep");
         return true;
     }
@@ -70,6 +71,7 @@ public class Kotik {
             return false;
         }
         System.out.println("Cat sleep");
+        satiety--;
         return true;
     }
 
@@ -79,6 +81,7 @@ public class Kotik {
             return false;
         }
         System.out.println("Cat wash");
+        satiety--;
         return true;
     }
 
@@ -88,6 +91,7 @@ public class Kotik {
             return false;
         }
         System.out.println("Cat walk");
+        satiety--;
         return true;
     }
 
@@ -97,6 +101,7 @@ public class Kotik {
             return false;
         }
         System.out.println("Cat hunt");
+        satiety--;
         return true;
     }
 
