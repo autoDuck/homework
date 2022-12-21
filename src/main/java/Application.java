@@ -1,5 +1,3 @@
-package homework;
-
 import animals.Kotik;
 
 public class Application {
